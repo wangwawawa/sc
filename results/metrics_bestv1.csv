@@ -1,0 +1,3 @@
+dataset,method,seed,n_neighbors,resolution,views,ensemble_runs,nmi,ari,acc
+turtle,baseline,0,30,0.5,pca,1,0.8712334192626503,0.8493082001194145,0.9030754393484783
+turtle,bamec,0,30,0.5,"pca,wpca,diffmap",54,0.8711899545760342,0.8486600159205682,0.9030218602657523
