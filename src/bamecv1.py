@@ -443,4 +443,5 @@ def run_bamec(adata_proc: sc.AnnData, cfg: BAMECConfig) -> np.ndarray:
             cfg.consensus_resolution = float(res)
 
     print(f"[BAMEC] Best resolution: {cfg.consensus_resolution}, best_score: {best_score:.4f}")
+
     return best_labels
